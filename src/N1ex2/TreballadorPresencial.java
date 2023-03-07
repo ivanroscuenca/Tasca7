@@ -1,4 +1,4 @@
-package N1ex1;
+package N1ex2;
 
 public class TreballadorPresencial extends Treballador {
 
@@ -19,6 +19,12 @@ public class TreballadorPresencial extends Treballador {
     @Override
     public double calculateSalary(int hoursWorked){
         double salary = hoursWorked*priceXhour+gas;
+        return salary;
+    }
+
+    @Deprecated
+    public double calculateSalaryDeprecated(int hoursWorked ){
+        double salary = hoursWorked*priceXhour+75;
         return salary;
     }
 

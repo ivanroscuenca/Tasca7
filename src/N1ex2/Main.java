@@ -1,4 +1,4 @@
-package N1ex1;
+package N1ex2;
 //Crea una jerarquia d’objectes amb tres classes:  Treballador, TreballadorOnline i TreballadorPresencial.
 //La classe Treballador té els atributs nom, cognom, preu/hora, i el mètode calcularSou() que rep per
 // paràmetre el nombre d'hores treballades i el multiplica pel preu/hora. Les classes filles l'han de
@@ -16,20 +16,14 @@ package N1ex1;
 // TreballadorOnline.
 
 public class Main {
+    @SuppressWarnings("This Calculation is deprecated")
     public static void main(String[] args) {
 
+    TreballadorOnline tr1 = new TreballadorOnline("Alberto", "Pérez", 15.0);
+    TreballadorPresencial tr2 = new TreballadorPresencial("Alex", "Vidal", 15.0);
 
-Treballador tr1 = new Treballador("Juan","Gómez,", 15.0);
-Treballador tr2 = new Treballador("María","Sánchez,", 15.0);
-TreballadorOnline tr3 = new TreballadorOnline("Alberto", "Pérez", 15.0);
-TreballadorPresencial tr4 = new TreballadorPresencial("Alex", "Vidal", 15.0);
-
-        System.out.println(tr1.toString() + " " +tr1.calculateSalary(200));
-        System.out.println(tr2.toString() + " " + tr2.calculateSalary(200));
-        System.out.println(tr3.toString() + " " + tr3.calculateSalary(200));
-        System.out.println(tr4.toString() + " " + tr4.calculateSalary(200));
-
-
-
+        System.out.println(tr1.toString() + " " +tr1.calculateSalaryDeprecated(200));
+        System.out.println(tr2.toString() + " " + tr2.calculateSalaryDeprecated(200));
     }
 }
+

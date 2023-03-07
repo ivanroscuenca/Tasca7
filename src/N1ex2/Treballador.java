@@ -1,4 +1,4 @@
-package N1ex1;
+package N1ex2;
 
 
 // paràmetre el nombre d'hores treballades i el multiplica pel preu/hora
