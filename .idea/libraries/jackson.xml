@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="jackson" type="repository">
+    <properties maven-id="com.ejlchina:okhttps-gson:3.0.2" />
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/ejlchina/okhttps-gson/3.0.2/okhttps-gson-3.0.2.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/ejlchina/okhttps/3.0.2/okhttps-3.0.2.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/ejlchina/data-core/1.0.1/data-core-1.0.1.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/squareup/okhttp3/okhttp/3.14.9/okhttp-3.14.9.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/squareup/okio/okio/1.17.5/okio-1.17.5.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/ejlchina/data-gson/1.0.1/data-gson-1.0.1.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/google/code/gson/gson/2.8.6/gson-2.8.6.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
