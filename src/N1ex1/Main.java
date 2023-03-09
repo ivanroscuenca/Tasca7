@@ -19,13 +19,9 @@ public class Main {
     public static void main(String[] args) {
 
 
-Treballador tr1 = new Treballador("Juan","Gómez,", 15.0);
-Treballador tr2 = new Treballador("María","Sánchez,", 15.0);
 TreballadorOnline tr3 = new TreballadorOnline("Alberto", "Pérez", 15.0);
 TreballadorPresencial tr4 = new TreballadorPresencial("Alex", "Vidal", 15.0);
 
-        System.out.println(tr1.toString() + " " +tr1.calculateSalary(200));
-        System.out.println(tr2.toString() + " " + tr2.calculateSalary(200));
         System.out.println(tr3.toString() + " " + tr3.calculateSalary(200));
         System.out.println(tr4.toString() + " " + tr4.calculateSalary(200));
 

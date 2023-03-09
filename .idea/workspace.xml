@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5f645cb4-7fc8-4d77-acc5-a21de189976f" name="Changes" comment="updated with Nivell 2 ex1">
+    <list default="true" id="5f645cb4-7fc8-4d77-acc5-a21de189976f" name="Changes" comment="updated only Nivell1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/N2ex1/ConvertJson.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/N2ex1/JsonElement.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/N2ex1/JsonSerializable.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/N2ex1/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/N2ex1/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/N1ex1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/N1ex1/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/N1ex1/Treballador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/N1ex1/Treballador.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,13 +105,21 @@
       <option name="project" value="LOCAL" />
       <updated>1678214244662</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="updated only Nivell1">
+      <created>1678290931035</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1678290931035</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="updated with print in screen some results" />
     <MESSAGE value="updated with Nivell 1 ex2" />
     <MESSAGE value="updated with Nivell 2 ex1" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated with Nivell 2 ex1" />
+    <MESSAGE value="updated only Nivell1" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated only Nivell1" />
   </component>
 </project>

@@ -2,7 +2,7 @@ package N1ex1;
 
 
 // paràmetre el nombre d'hores treballades i el multiplica pel preu/hora
-public class Treballador {
+public abstract class Treballador {
     private String name;
     private String surname;
     private Double priceXhour;
@@ -13,10 +13,9 @@ public class Treballador {
         this.priceXhour = priceXhour;
     }
 
-    public double calculateSalary(int hoursWorked){
-         double salary = hoursWorked*priceXhour;
-         return salary;
-     }
+    public abstract double calculateSalary(int hoursWorked);
+
+
 
     @Override
     public String toString() {
